@@ -1,0 +1,16 @@
+!!! THIS IS APPLICABLE FOR NEW CODES !!!
+!!! FOR OLDER CODES, PLEASE USE MASM AND DOSBOX !!!
+
+- write your code according to nasm syntax
+
+- save it as XXX.asm
+
+- To assemble: nasm -f elf XXX.asm
+
+- On error, you will be prompted about that at this stage.
+
+- To link: ld -m elf_i386 -s -o OUTPUTNAME XXX.o
+
+- Execute: ./OUTPUTNAME
+
+ 
